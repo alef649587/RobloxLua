@@ -2,8 +2,8 @@ local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 local dashCooldown = false
-local dashDistance = 70 --AQUI EU AJUSTO A DISTÂNCIA DO DASH.
-local dashDuration = 0.2 --POSSO AJUSTAR A DURAÇÃO DO DASH AQUI.
+local dashDistance = 70 --AQUI EU AJUSTO A DISTÂNCIA DO DASH
+local dashDuration = 0.2 --POSSO AJUSTAR A DURAÇÃO DO DASH AQUI
 
 
 local function dash() --FUNÇÃO DO DASH
